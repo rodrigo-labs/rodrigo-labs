@@ -1,0 +1,25 @@
+/*-----FOOTER-----*/
+
+.footer {
+    display: block;
+    text-align: center;
+
+    font-family: 'Kotta One', serif;
+    font-weight: 200;
+    font-size: .8rem;
+    color: #2f2f2f;
+    padding: 1rem;
+    border-bottom: .6rem solid #15669e;
+}
+
+.footer p {
+    margin-bottom: .4rem;
+}
+
+.footer a {
+    color: #15669e;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
