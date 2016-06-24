@@ -11,19 +11,19 @@
 
 .content {
     font-family: 'Kotta One', serif;
-    font-size: 1rem;
+    font-size: .85rem;
     font-weight: 200;
     line-height: 1.5rem;
 
     box-sizing: border-box;
-    width: 910px;
-    margin: 2.5rem .5rem 1rem .5rem;
+    width: 16rem;
+    margin: 1.5rem .5rem 1.5rem .5rem;
     padding: 1.5rem;
 
     color: #2f2f2f;
     border: 1px solid #ddd;
     border-radius: 3px;
-    background-color: rgba(240, 240, 240, .5);
+    background-color: rgba(255, 255, 255, 0.5);
     box-shadow: 1px 1px 5px rgba(155, 155, 155, .6);
 }
 
@@ -33,7 +33,7 @@
 
     display: block;
 
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     margin-left: .2rem;
     padding: 0 0 .5rem 0;
 
@@ -56,16 +56,29 @@
     margin-bottom: .4rem;
 }
 
-.content ul {
-    display: block;
-
-    margin-left: 1rem;
-}
-
 .content a {
     color: #15669e;
 }
 
 .content a:hover {
     text-decoration: underline;
+}
+
+.skills {
+    margin-left: 1rem;
+}
+
+.contacts {
+    list-style: none;
+    text-align: left;
+    margin: 0;
+}
+
+.contacts li {
+    display: inline-block;
+}
+
+.contacts img {
+    width: 2rem;
+    height: 2rem;
 }

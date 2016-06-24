@@ -58,15 +58,15 @@
     line-height: 1.3rem;
 
     box-sizing: border-box;
-    width: 18.5rem;
-    margin: .4rem;
-    padding: .8rem;
+    width: 16rem;
+    margin: .5rem;
+    padding: .5rem;
 
     text-align: center;
 
     border: 1px solid #ddd;
     border-radius: 3px;
-    background-color: rgba(240, 240, 240, .6);
+    background-color: rgba(255, 255, 255, 0.6);
     box-shadow: 1px 1px 5px rgba(155, 155, 155, .6);
 }
 
