@@ -6,3 +6,5 @@ e tornou-se meu primeiro site e tambem meu portifolio de estudos durante o curso
 [www.rodrigo-labs.com.br](www.rodrigo-labs.com.br)
 
 [rodrigomv-dev@gmail.com](rodrigomv-dev@gmail.com)
+
+beta v0.1
