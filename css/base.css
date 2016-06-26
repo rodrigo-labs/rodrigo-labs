@@ -1,6 +1,61 @@
 /*-----BASE-----*/
 
+html {
+    font-size: 16px;
+}
+
+body {
+    background: #fff url('../images/fundo.png');
+    border-top: .6rem solid #15669e;
+    border-bottom: .6rem solid #15669e;
+}
+
+/* class page e suas media queries*/
 .page {
     margin: 0 auto;
     padding: 0;
+
+    width: 17rem;
+}
+
+@media (min-width: 580px) {
+    .page {
+        width: 34rem;
+    }
+}
+
+@media (min-width: 960px) {
+    .page {
+        width: 51rem;
+    }
+}
+
+/* back to top e suas media queries*/
+.to-top {
+    display: none;
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(155, 155, 155, .6);
+    background-size: 65%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../images/arrow-up-light.svg");
+    background-color: #15669e;
+    position: fixed;
+    bottom: 3rem;
+    right: 2rem;
+    opacity: .5;
+}
+
+.to-top:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+@media (min-width: 580px) {
+    .to-top {
+
+    }
 }
