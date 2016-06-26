@@ -41,20 +41,11 @@
     color: #15669e;
 }
 
-.header-menu {
+.header-nav {
     margin-top: 2rem;
 }
 
-.header-menu ul {
-    display: flex;
-
-    list-style: none;
-
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
-.header-menu li {
+.header-nav-button {
     line-height: 1.3rem;
 
     width: 16rem;
@@ -63,37 +54,25 @@
 
     text-align: center;
 
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    background-color: rgba(255, 255, 255, .6);
-    box-shadow: 1px 1px 5px rgba(155, 155, 155, .6);
 }
 
-.header-menu li:hover {
-    transition-timing-function: ease-out;
-    transition-duration: .25s;
-    transition-property: all;
-
-    box-shadow: 1px 1px 8px rgba(155, 155, 155, .9);
-}
-
-.header-menu li a {
+.header-nav-button a {
     color: #2f2f2f;
 }
 
-.header-menu li a p {
+.header-nav-button a p {
     font-family: 'Kotta One', serif;
     font-size: .9rem;
     font-weight: 500;
 }
 
-.header-menu li a span p {
+.header-nav-button a span p {
     font-size: .75rem;
     font-style: italic;
 
     color: #919191;
 }
 
-.header-menu li:hover a span p {
+.header-nav-button:hover a span p {
     color: #15669e;
 }

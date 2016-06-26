@@ -36,6 +36,7 @@
     transform: rotate(-3deg);
 
     border: 1px solid #cdcdcd;
+    box-shadow: 2px 2px 5px rgba(155, 155, 155, .6);
     background-color: rgba(255, 255, 255, .9);
 
     -webkit-filter: grayscale(1);
@@ -43,7 +44,7 @@
 }
 
 @media (min-width: 960px) {
-    .content {
+    .content_perfil {
         width: 36rem;
         margin-left: 4rem;
 
