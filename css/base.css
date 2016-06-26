@@ -5,17 +5,16 @@ html {
 }
 
 body {
-    background: #fff url('../images/fundo.png');
     border-top: .6rem solid #15669e;
     border-bottom: .6rem solid #15669e;
+    background: #fff url('../images/fundo.png');
 }
 
 /* class page e suas media queries*/
 .page {
+    width: 17rem;
     margin: 0 auto;
     padding: 0;
-
-    width: 17rem;
 }
 
 @media (min-width: 580px) {
@@ -31,31 +30,30 @@ body {
 }
 
 /* back to top e suas media queries*/
-.to-top {
+.back-to-top {
+    position: fixed;
+    right: 2rem;
+    bottom: 3rem;
+
     display: none;
+
     width: 3rem;
     height: 3rem;
+
+    opacity: .4;
     border: 1px solid #ddd;
     border-radius: 5px;
-    box-shadow: 1px 1px 5px rgba(155, 155, 155, .6);
-    background-size: 65%;
+    background-color: #15669e;
+    background-image: url('../images/arrow-up-light.svg');
     background-repeat: no-repeat;
     background-position: center;
-    background-image: url("../images/arrow-up-light.svg");
-    background-color: #15669e;
-    position: fixed;
-    bottom: 3rem;
-    right: 2rem;
-    opacity: .5;
+    background-size: 65%;
+    box-shadow: 1px 1px 5px rgba(155, 155, 155, .6);
 }
 
-.to-top:hover {
+.back-to-top:hover {
     cursor: pointer;
+    transition: opacity .25s linear;
+
     opacity: 1;
-}
-
-@media (min-width: 580px) {
-    .to-top {
-
-    }
 }

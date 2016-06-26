@@ -2,7 +2,6 @@
 
 .wrapper {
     display: flex;
-
     flex-direction: row;
 
     margin: 3rem .5rem 1.5rem .5rem;
@@ -10,7 +9,7 @@
 
     border: 1px solid #ddd;
     border-radius: 5px;
-    background-color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, .5);
     box-shadow: 1px 1px 5px rgba(155, 155, 155, .6);
 }
 
@@ -24,21 +23,41 @@
 }
 
 .side {
+    position: relative;
+
     display: none;
+}
+
+.side img {
+    width: 115%;
+    margin: 5rem 0;
+    padding: .4rem;
+
+    transform: rotate(-3deg);
+
+    border: 1px solid #cdcdcd;
+    background-color: rgba(255, 255, 255, .9);
+
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
 }
 
 @media (min-width: 960px) {
     .content {
-        order: 2;
         width: 36rem;
         margin-left: 4rem;
+
+        order: 2;
     }
 
     .side {
         display: block;
-        order: 1;
-        border-right: 1px solid rgba(155, 155, 155, .3);
+
         width: 12rem;
+
+        border-right: 1px solid rgba(155, 155, 155, .3);
+
+        order: 1;
     }
 }
 
@@ -48,7 +67,7 @@
 
     display: block;
 
-    margin: 1rem 0 1rem .2rem;
+    margin: 2rem 0 2rem .2rem;
 
     color: #15669e;
 }
@@ -59,7 +78,7 @@
 
     display: block;
 
-    margin: 1rem 0 1rem .2rem;
+    margin: 2rem 0 1rem .2rem;
 
     color: #15669e;
 }
@@ -81,27 +100,31 @@
 }
 
 .contacts {
-    list-style: none;
-    text-align: left;
     margin: 0;
+
+    list-style: none;
+
+    text-align: left;
 }
 
 .contacts li {
     display: inline-block;
+
     margin-right: .2rem;
 }
 
 .contacts img {
-    -webkit-filter: brightness(90%);
-    filter: brightness(90%);
     width: 2.2rem;
     height: 2.2rem;
+
+    -webkit-filter: brightness(90%);
+    filter: brightness(90%);
 }
 
 .contacts img:hover {
-    transition-property: filter;
-    transition-duration: .25s;
-    transition-timing-function: ease-out;
+    transition: filter .25s ease-out;
+    transition: -webkit-filter .25s ease-out;
+
     -webkit-filter: brightness(125%);
     filter: brightness(125%);
 }

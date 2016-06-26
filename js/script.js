@@ -8,13 +8,13 @@ $(function () {
     $(window).scroll(function () {
 
         if ($(this).scrollTop() > 100) {
-            $('.to-top').fadeIn();
+            $('.back-to-top').fadeIn();
         } else {
-            $('.to-top').fadeOut();
+            $('.back-to-top').fadeOut();
         }
     });
 
-    $('.to-top').on('click', function () {
+    $('.back-to-top').on('click', function () {
         $('html, body').animate({
             scrollTop: 0
         }, 700);
