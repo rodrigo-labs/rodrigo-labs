@@ -12,40 +12,46 @@
     padding: .5rem;
 
     text-align: center;
-
-    font-family: 'Kotta One', serif;
 }
 
 .main-card a {
     color: #2f2f2f;
+    font-family: 'Kotta One', serif;
 }
 
-.main-card p {
-    font-size: .75rem;
-    font-weight: 200;
+.main-card h1 {
+    margin: .5rem 0;
 
-    color: #2f2f2f;
-}
-
-.main-card a p {
-    font-size: .8rem;
+    font-size: .7rem;
     font-weight: 500;
-}
-
-.main-card a span p {
-    font-size: .75rem;
-    font-style: italic;
-    font-weight: 400;
 
     color: #919191;
 }
 
-.main-card:hover a span p {
+.main-card p {
+    margin: .5rem .5rem;
+
+    font-size: .7rem;
+    font-weight: 200;
+    font-style: italic;
+
+    text-align: left;
+}
+
+.main-card span p {
+    font-size: .75rem;
+    font-weight: 500;
+    font-style: italic;
+
+    text-align: center;
+}
+
+.main-card:hover h1 {
     color: #15669e;
 }
 
 .main-card img {
-    width: 60%;
+    width: 80%;
 
     transition: filter .2s linear;
     transition: -webkit-filter .2s linear;
