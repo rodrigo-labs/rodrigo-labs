@@ -11,29 +11,29 @@
 }
 
 .header-logo p {
+    margin-top: 1rem;
+
     font-family: 'Kotta One', serif;
     font-size: 1rem;
 
     display: block;
 
-    margin-top: .5rem;
-
     color: #15669e;
 }
 
 .header-logo a {
-    color: #2f2f2f;
-}
+    margin-top: .5rem;
 
-.header-logo h1 {
     font-family: 'Overlock', cursive;
     font-size: 2.5rem;
     font-weight: 600;
 
+    color: #2f2f2f;
+
     display: block;
 }
 
-.header-logo h1 span {
+.header-logo a span {
     font-size: 2rem;
     font-weight: 300;
     font-style: italic;
@@ -50,29 +50,34 @@
 
     width: 16rem;
     margin: .5rem;
-    padding: 1rem;
+    padding: .4rem;
 
     text-align: center;
 
+    font-family: 'Kotta One', serif;
 }
 
 .header-nav-button a {
     color: #2f2f2f;
 }
 
-.header-nav-button a p {
-    font-family: 'Kotta One', serif;
+.header-nav-button h1 {
+    margin-bottom: .5rem;
+
     font-size: .9rem;
     font-weight: 500;
 }
 
-.header-nav-button a span p {
+.header-nav-button h2 {
+    margin-top: .5rem;
+
     font-size: .75rem;
+    font-weight: 400;
     font-style: italic;
 
     color: #919191;
 }
 
-.header-nav-button:hover a span p {
+.header-nav-button:hover h2 {
     color: #15669e;
 }
