@@ -45,7 +45,7 @@ body {
     box-shadow: 1px 1px 8px rgba(155, 155, 155, .9);
 }
 
-.card-container {
+.container {
     display: flex;
 
     list-style: none;
